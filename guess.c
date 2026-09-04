@@ -11,7 +11,6 @@ int main(){
   int turns;
 
   srand(time(NULL));
-
   int correct = (rand() % 100) + 1;
 
   printf("What is your name? ");

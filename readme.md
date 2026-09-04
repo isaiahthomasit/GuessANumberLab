@@ -1,18 +1,17 @@
 # GuessANumberLab
 
-Create user input
- Prompt user for their name
- Store name in a string
- Greet the user
+main():
+> define the username characters
+> define the response as characters
+> define the guesses as integers
+> keepGoing starts as true
+> define the turns as integers
 
-Generate random number 1-100
- 
-Prompt user to enter a number
- If there is no valid input, prompt again
- If number is too low, output "too low"
- If number is too high, out "too high"
- If the number is correct, output "Correct!"
+> generate a random number every game
+> define correct as the random number
+> random number should be between 1-100
 
-Track the number of turns
+> prompt user for their userName
+> greet user 
 
  
