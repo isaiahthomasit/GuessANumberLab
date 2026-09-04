@@ -40,9 +40,9 @@ int main(){
   } // end while loop
 
   if (turns < 7){
-    printf("You got it in under 7 tries! Very good!\n");
+    printf("You got it in %d tries! Very good!\n", turns);
   } else {
-    printf("It took you 7+ tries. You're trash at this game!\n");
+    printf("It took you %d tries. You're garbage bro!\n", turns);
   }
 
   return 0;
