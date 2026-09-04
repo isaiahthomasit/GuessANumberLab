@@ -1,22 +1,52 @@
 #include <stdio.h>
- // This imports standard input/output, it gives you printf()
- // and scanf (), which prompts the user for somthing.
-
 #include <stdlib.h>
- // Provies various commands like rand() and srand() which you'll use
- // for generatiing random numbers
-
+#include <time.h>
+#include <stdbool.h>
 
 int main(){
   char userName[20];
-  
-  printf("what is your name? ");
-  scanf("%s", userName);
+  char response[20];
+  int guess;
+  int keepGoing = true;
+  int turns;
 
-  printf("Hello, %s!, My name is Isaiah\n", userName)
+  srand(time(NULL));
+
+  int correct = (rand() % 100) + 1;
+
+  printf("What is your name? ");
+  scanf("%s", userName); 
+
+  printf("\nHello, %s!, My name is Isaiah!\n", userName);
+  printf("Would you like to play Guess The Number? ");
+  scanf("%s", response);
+
+  printf("\nI'm thinking of a number between 1-100.\n");
+   
+  while (keepGoing){
+    turns++;
+    printf("Turn %d) Guess a number: ", turns);
+    scanf("%d", &guess);
+
+    if (guess < correct){
+      printf("Higher!\n");
+    } else if (guess > correct){
+      printf("Lower!\n");
+    } else {
+      printf("\nCorrect!\n");
+      keepGoing = false;
+    }
+	 
+  } // end while loop
+
+  if (turns < 7){
+    printf("You got it in under 7 tries! Very good!\n");
+  } else {
+    printf("It took you 7+ tries. You're trash at this game!\n");
+  }
 
   return 0;
 
- }
+} // end main
 
 
