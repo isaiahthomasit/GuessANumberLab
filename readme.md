@@ -1,6 +1,6 @@
 # GuessANumberLab
 
-main():
+## main():
 
 &nbsp; define the username characters
 
@@ -10,16 +10,16 @@ main():
 
 &nbsp; keepGoing starts as true
 
-> define the turns as integers
+&nbsp; define the turns as integers
 
-> generate a random number every game
+&nbsp; generate a random number every game
 
-> define correct as the random number
+&nbsp; define correct as the random number
 
-> random number should be between 1-100
+&nbsp; random number should be between 1-100
 
-> prompt user for their userName
+&nbsp; prompt user for their userName
 
-> greet user 
+&nbsp; greet user 
 
  
