@@ -3,10 +3,8 @@
 main():
 
 &nbsp; define the username characters
-
-> define the response as characters
-
-> define the guesses as integers
+&nbsp; define the response as characters
+&nbsp; define the guesses as integers
 
 > keepGoing starts as true
 
