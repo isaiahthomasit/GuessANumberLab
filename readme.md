@@ -1,4 +1,4 @@
-# GuessANumberLab
+# Guess A Number Lab Algorithm
 
 ```text
 main():
