@@ -1,57 +1,40 @@
 # GuessANumberLab
 
+```text
 main():
 
-&nbsp; userName as char[20]
+    userName as char[20]
+    response as char[20]
+    guesses as integer
+    keepGoing starts as true
+    turns as integer
 
-&nbsp; response as char[20]
+    generate random number every game
+    random number generated between 1-100
+    correct integer number = random generated number
 
-&nbsp; guesses as integers
+    prompt user for userName
+    greet user
 
-&nbsp; keepGoing starts as true
+    while keepGoing is true:
 
-&nbsp; turns as integers
+        turns +1
+        prompt user for guess
 
-&nbsp; generate random number every game
+        if guess < correct:
+            print higher
 
-&nbsp; random number generated between 1-100
+        else if guess > correct:
+            print lower
 
-&nbsp; correct integer number = random generated number
+        else:
+            print correct
+            keepGoing is false
 
-&nbsp; random number generated between 1-100
+    if turn < 7:
+        print very good
 
-&nbsp; prompt user for userName
-
-&nbsp; greet user
-
-
-&nbsp; while keepGoing is true:
-
-&nbsp;&nbsp; turns +1
-
-&nbsp;&nbsp; prompt user for guess
-
-&nbsp;&nbsp; if guess < correct:
-
-&nbsp;&nbsp;&nbsp; print higher
-
-&nbsp;&nbsp; else if guess > correct
-
-&nbsp;&nbsp;&nbsp; print lower
-
-&nbsp;&nbsp; else
-
-&nbsp;&nbsp;&nbsp; print correct
-
-&nbsp;&nbsp;&nbsp; keepGoing is false
-
-
-&nbsp; if turn < 7
-
-&nbsp;&nbsp; print very good
-
-&nbsp; if turn > 7
-
-&nbsp;&nbsp; print you're garbage
-
+    if turn > 7:
+        print you're garbage
+```
  
