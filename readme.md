@@ -1,7 +1,7 @@
 # GuessANumberLab
 
 main():
-- define the username characters
+_ define the username characters
 
 > define the response as characters
 
